@@ -1,0 +1,7 @@
+{
+"name": "Movieapi",
+  "version": "1.0.0",
+  "description": "Movies API basic documentation",
+  "title": "Movie API",
+  "url" : "http://localhost:8080/api"
+}
