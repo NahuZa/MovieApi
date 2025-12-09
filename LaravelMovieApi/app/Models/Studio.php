@@ -12,4 +12,6 @@ class Studio extends Model
         'id',
         'name'
     ];
+
+    
 }
