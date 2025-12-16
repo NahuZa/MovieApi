@@ -4,6 +4,11 @@ namespace Database\Seeders;
 
 use App\Models\ConnectDirectorsMovies;
 use App\Models\ConnectMoviesActors;
+use App\Models\ConnectMoviesStudios;
+use App\Models\Actor;
+use App\Models\Category;
+use App\Models\Director;
+use App\Models\Movie;
 use App\Models\Studio;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
@@ -29,9 +34,10 @@ class DatabaseSeeder extends Seeder
             DirectorSeeder::class,
             MovieSeeder::class,
             StudioSeeder::class,
-            /*ConnectDirectorsMoviesSeeder::class,
+           /* ConnectDirectorsMoviesSeeder::class,
             ConnectMoviesActorsSeeder::class,
             ConnectMoviesStudioSeeder::class,*/
         ]);
     }
+    
 }

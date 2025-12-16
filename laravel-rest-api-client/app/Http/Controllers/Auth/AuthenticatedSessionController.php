@@ -31,7 +31,7 @@ class AuthenticatedSessionController extends Controller
     public function store(LoginRequest $request): RedirectResponse
 {
     // API login hívás
-    $response = Http::api()->post('/user/login', [
+    $response = Http::baseUrl(config('app.url') . '/api')->post('/user/login', [
         'email' => $request->email,
         'password' => $request->password,
     ]);

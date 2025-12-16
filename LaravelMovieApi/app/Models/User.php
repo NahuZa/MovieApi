@@ -15,7 +15,7 @@ class User extends Authenticatable
     /**
      * The attributes that are mass assignable.
      *
-     * @var array<int, string>
+     * @var array<int, string>  
      */
     protected $fillable = [
         'name',
@@ -31,7 +31,7 @@ class User extends Authenticatable
     protected $hidden = [
         'password',
         'remember_token',
-        'name',
+        //'name',
         'email_verified_at',
         'created_at',
         'updated_at'
